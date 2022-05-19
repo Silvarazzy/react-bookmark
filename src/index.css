@@ -11,3 +11,205 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.footer{
+  text-decoration: none;
+  background-color: rgb(58, 58, 88);
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  color: white;
+  height:4rem;
+  padding-top: 1rem;
+}
+li{
+  text-decoration: none;
+}
+.footericons{
+  padding-right: 2rem;
+  margin-right: 2rem;
+}
+.section3{
+  background-color: blue;
+  height:25rem ;
+  padding-top: 4rem;
+  color: white;
+}
+.input{
+  height: 3rem;
+  width: 20rem;
+  border: 1px solid red;
+}
+.inputbtn{
+  height: 3rem;
+  margin-left: 2rem;
+  width: 7rem;
+  border-radius: 4px;
+  color:white;
+  background-color: red;
+}
+.moreinfo{
+  color: white;
+  background-color: rgb(10, 10, 128);
+  height:3rem;
+  width: 7rem;
+  border-radius:4px;
+}
+.extension{
+  background-color: rgb(10, 10, 128);
+  color: white;
+  height: 3rem;
+  width: 18rem;
+  border-radius: 4px;
+  margin-top: 1rem;
+}
+
+.moreinfobtn{
+  background-color:rgb(10, 10, 128) ;
+  color: white;
+  height: 3rem;
+  width: 7rem;
+  border-radius: 4px;
+}
+.firstbtnset{
+  background-color: white;
+  height: 2.5rem;
+  border-radius: 4px;
+}
+.Afterfeatures{
+  display: flex;
+  margin-left: 33.5rem;
+  width: 32%;
+  justify-content: space-between;
+}
+.hr{
+  width: 35%;
+  margin-left: 32rem;
+}
+
+.col.one{
+  box-shadow: 0px 10px 20px -5px black;
+  border-radius: 5px;
+}
+#accordionExample{
+  text-align: center;
+  width: 45%;
+  margin-top: 7rem;
+  margin-left: 27rem;
+}
+.FAO{
+  margin-top: 12rem;
+}
+.container.grid{
+  margin-top: 7rem;
+  
+}
+.extension1{
+  margin-top: 7rem;
+
+}
+.flex-container{
+  display: flex;
+  width: 70%;
+  margin-left: 16rem;
+  justify-content: space-between;
+  
+}
+
+.section1{
+  display: flex;
+  margin-top: 3rem;
+  margin-left: 4rem;
+}
+.imagesection1{
+  margin-left: 11rem;
+}
+.section2{
+  display: flex;
+  margin-top: 3rem;
+  margin-left: 10rem;
+}
+.Bookmarkinoneclick{
+  margin-left: 15rem;
+  width: 25rem;
+  margin-top: 3rem;
+}
+.EXTENSION1{
+  margin-top: 2rem;
+  background-color:white;
+  box-shadow: 0px 10px 20px -5px black;
+  border-radius: 5px;
+  padding:2% 0%;
+}
+.EXTENSION2{
+  margin-top: 2rem;
+  background-color:white;
+  box-shadow: 0px 10px 20px -5px black;
+  border-radius: 5px;
+  margin-left: 3rem;
+  position: relative;top: 3rem;
+  padding:2% 0%;
+
+}
+.EXTENSION3{
+  margin-top: 2rem;
+  background-color:white;
+  box-shadow: 0px 10px 20px -5px black;
+  border-radius: 5px;
+  margin-left: 3rem;
+  position: relative;top: 6rem;
+  padding:2% 0%;
+
+}
+
+@media screen and (max-width:1400px) {
+  .section1{
+    display:block;
+    width:auto;
+    margin-left: 0%;
+  }
+  .imagesection1{
+    margin:auto;
+    width:fit-content;
+    
+  }
+  .Afterfeatures{
+    display:block;
+    margin: auto;
+
+  }
+  
+  .section2{
+    display:block;
+  margin: auto;
+
+}
+.Bookmarkinoneclick{
+  margin-left:0%;
+}
+.extension1{
+  margin:auto;
+}
+.flex-container{
+  display:block;
+  margin: auto;
+}
+.extension{
+  width: fit-content;
+}
+.EXTENSION2{
+  position: relative;top: 0%;
+  margin-left: 0%;
+}
+.EXTENSION3{
+  position: relative;top: 0%;
+  margin-left: 0%;
+}
+#accordionExample{
+
+  margin: auto;
+}
+.footer{
+  display: block;
+  height: fit-content;
+}
+}
